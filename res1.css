@@ -1,0 +1,57 @@
+#navimg {
+    display: none;
+}
+
+#navbar {
+    flex-direction: column;
+    /* opacity: 2; */
+}
+#navbar .nav a{
+    text-align: center;
+}
+.nav{
+    margin: auto;
+}
+/* #start{
+    height:500px;
+} */
+.main h1{
+    width: 100%;
+    font-size:25px
+}
+#offersv{
+    flex-direction: column;
+    margin: auto;
+}
+.mainw{
+    width:80%;
+    border-radius: 30%;
+    box-shadow: 5px 5px 10px 2px black;
+    margin: 10px auto;
+}
+#bnavbar{
+    background: url('https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=600');
+    /* opacity: 0.8; */
+    
+}
+#start h1{
+    font-size: 30px ;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.contactv{
+    width: 80%;
+    margin: auto;
+}
+.contactv input{
+    width: 80%;
+    font-size: 15px;
+}
+.contactv textarea{
+    width:80%;
+    height: 100px;
+}
+.contactv input:focus,.contactv textarea:focus{
+    width: 90%;
+}
